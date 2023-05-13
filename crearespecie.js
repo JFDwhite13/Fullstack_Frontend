@@ -30,7 +30,7 @@ async function sendform(){
     }catch(Error){
         console.log(Error)
         const result= document.getElementById("result")
-        result.innerHTML= e
+        result.innerHTML= Error
     }
     
 
